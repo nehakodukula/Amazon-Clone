@@ -1,0 +1,569 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+body {
+    background-color: rgb(212, 234, 246);
+    width: 100%;
+
+}
+.navbar {
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+.logo {
+    background-image: url("assets/amazon_PNG11.png");
+    background-size: cover;
+    height: 30px;
+    width: 100%;
+    align-items: center;
+    margin-top: 12px;
+}
+.border {
+    border: 1px solid transparent;
+}
+.border:hover {
+    border: 2px solid white;
+}
+@media screen  (min-width: 300px) and (max-width: 700px) {
+    .navbar {
+        text-wrap: wrap;
+        
+
+    }
+    
+}
+/**box2*/
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+@media screen (min-width: 300px) and (max-width: 700px) {
+    
+    
+}
+
+/**box3*/
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.nav-search:hover {
+    border: 2px solid rgb(254, 148, 9);
+}
+.search-select {
+    background-color: beige;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(254, 148, 9);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: black;
+}
+@media screen (min-width: 300px) and (max-width: 700px) {
+    
+    
+}
+/**box4*/
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-signin:hover {
+    border: 2px solid white;
+}
+.nav-return:hover {
+    border: 2px solid white;
+}
+.nav-cart i{
+    
+    font-size: 32px;
+}
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart:hover {
+    border: 2px solid white;
+}
+@media screen (min-width: 300px) and (max-width: 700px) {
+    
+    
+}
+/** Second Nav*/
+.nav-2 {
+    height: 39px;
+    background-color: rgba(1, 1, 35, 0.953);
+    color: white;
+    display: flex;
+}
+.nav-2 i {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+.all {
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 15px 5px 0px 5px;
+    border-radius: 5%;
+}
+ .shopx span {
+    font-size: 0.85rem;
+    font-weight: lighter;
+    margin: 10px;
+    position: relative;
+    top: 12px;
+    border-radius: 5%;
+} 
+.all:hover {
+    border: 1px solid white;
+}
+.x-1:hover {
+    border: 1px solid white;
+}
+.x-2:hover {
+    border: 1px solid white;
+}
+.x-3:hover {
+    border: 1px solid white;
+}
+.x-4:hover {
+    border: 1px solid white;
+}
+.x-5:hover {
+    border: 1px solid white;
+}
+@media screen (min-width: 300px) and (max-width: 700px) {
+    
+    
+}
+/** middle strip*/
+.hero img {
+    height: 100%;
+    width: 100%;
+    
+}
+.strip {
+    height: 40vh;
+    width: 100vw;
+    background-color: white;
+    color: black;
+    display: inline; 
+    position: relative;
+    bottom: 315px;
+    left: 160px;
+    padding: 10px 20px;
+    margin: 25px;
+   
+}
+.strip span {
+    font-size: 15px;
+  
+}
+.strip a {
+    font-size: 15px;
+    text-decoration: none;
+}
+@media screen (min-width: 300px) and (max-width: 700px) {
+    
+    
+}
+/**main containers 8 shop section*/
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 280px;
+   
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color:  white;
+    border: 0.5px solid rgba(206, 200, 200, 0.893);
+}
+.main2 {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 250px;
+}
+.box2 {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    border: 0.5px solid rgba(206, 200, 200, 0.893);
+}
+.box-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+
+.img img {
+    padding: 2px;
+    margin: 10px;
+    height: 120px;
+    width: 78%;
+
+}
+@media screen (min-width: 300px) and (max-width: 700px) {
+    
+    
+}
+.main h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 3px;
+}
+.main2 h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 3px;
+}
+.main p {
+    font-size: 15px;
+    margin: 3px;
+}
+.main span {
+    font-size: 12px;
+    position: relative;
+    bottom: 15px;
+    margin: 10px;
+}
+.main2 span {
+    font-size: 12px;
+    position: relative;
+    bottom: 15px;
+    margin: 10px;
+}
+@media screen (min-width: 300px) and (max-width: 700px) {
+    
+    
+}
+/** strips Best Sellers*/
+.strip1 {
+    width: 97%;
+    height: 40vh;
+    padding: 2px;
+    margin: 2px;
+    background-color: white;
+    border:  0.5px solid rgba(206, 200, 200, 0.893);
+    position: relative;
+    bottom: 220px;
+    left: 16px;
+}
+.strip-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4px;
+}
+.strip2 {
+    width: 97%;
+    height: 40vh;
+    padding: 2px;
+    margin: 2px;
+    background-color: white;
+    border:  0.5px solid rgba(206, 200, 200, 0.893);
+    position: relative;
+    bottom: 190px;
+    left: 16px;
+}
+.strip3 {
+    width: 97%;
+    height: 40vh;
+    padding: 2px;
+    margin: 2px;
+    background-color: white;
+    border:  0.5px solid rgba(206, 200, 200, 0.893);
+    position: relative;
+    bottom: 160px;
+    left: 16px;
+}
+@media screen (min-width: 300px) and (max-width: 700px) {
+    
+    
+}
+/** another containers*/
+.containers {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 135px; 
+   
+}
+
+.box3 {
+    height: 400px;
+    width: 23%;
+    padding: 2px;
+    margin: 3px;
+    background-color:  white;
+    border: 0.5px solid rgba(206, 200, 200, 0.893);
+
+}
+.box-img1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+
+.box-img1 img {
+    padding: 2px;
+    margin: 10px;
+    height: 40vh;
+    width: 20vw;
+
+}
+.box h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    margin: 6px;
+}
+.box a {
+    font-size: 12px;
+    text-decoration: none;
+    padding: 2px;
+    margin: 6px;
+    position: relative;
+    top: 50px;
+}
+@media screen (min-width: 300px) and (max-width: 700px) {
+    
+    
+}
+
+/** strip 4*/
+.strip4 {
+    width: 97%;
+    height: 40vh;
+    padding: 2px;
+    margin: 2px;
+    background-color: white;
+    border:  0.5px solid rgba(206, 200, 200, 0.893);
+    position: relative;
+    bottom: 110px;
+    left: 16px;
+}
+.strip5 {
+    width: 97%;
+    height: 40vh;
+    padding: 2px;
+    margin: 2px;
+    background-color: white;
+    border:  0.5px solid rgba(206, 200, 200, 0.893);
+    position: relative;
+    bottom: 80px;
+    left: 16px;
+}
+@media screen (min-width: 300px) and (max-width: 700px) {
+    
+    
+}
+/**sign in strip*/
+.sign-in {
+    width: 100%;
+    height: 28vh;
+    padding: 2px;
+    margin: 2px;
+    background-color: white;
+    border:  0.5px solid rgba(206, 200, 200, 0.893);
+    position: relative;
+    bottom: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in br {
+    font-size: 0.85rem;
+    font-weight: lighter;
+    color: black;
+}
+.sign-in button {
+    height: 5vh;
+    width: 20vw;
+    background-color: rgb(255, 221, 0);
+    border: 2px solid rgb(255, 200, 0);
+    color: black;
+    border-radius: 5%;
+    padding: 3px;
+    margin: 5px;
+
+}
+.sign-in .one {
+    font-size: 14px;
+    padding: 2px;
+    margin: 2px;
+}
+.sign-in .two  {
+    font-size: 12px;
+    padding: 2px;
+    margin: 2px;
+
+}
+.sign-in .two a {
+    text-decoration: none;
+}
+.nav-f1 {
+    height: 7vh;
+    width: 100%;
+    background-color: rgba(1, 1, 89, 0.741);
+    color: antiquewhite;
+    position: relative;
+    bottom: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.nav-f1 span {
+    font-size: 15px;
+    font-weight: 600;
+}
+.nav-footer .main {
+    height: 80vh;
+    width: 100vw;
+    background-color:  rgba(0, 0, 30, 0.783);
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    position: relative;
+    bottom: 52px;
+    padding: 5px;
+    
+}
+.nav-footer .main li {
+    list-style-type: none;
+    margin: 2px;
+}
+.nav-footer .Colhead1 {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px;
+    margin: 50px 0px 0px 70px;
+    position: relative;
+    right: 500px;
+
+}
+.head1 {
+    position: relative;
+    right: 470px;
+    top: 10px;
+}
+
+.nav-footer .Colhead2 {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px;
+    margin: 50px 0px 0px 70px;
+    position: relative;
+    right: 220px;
+    bottom: 180px;
+
+}
+.head2 {
+    position: relative;
+    right: 192px;
+    bottom: 170px;
+}
+.nav-footer .Colhead3 {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px;
+    margin: 50px 0px 0px 70px;
+    position: relative;
+    left: 100px;
+    bottom: 400px;
+
+}
+.head3 {
+    position: relative;
+    left: 130px;
+    bottom: 385px;
+}
+.nav-footer .Colhead4 {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px;
+    margin: 50px 0px 0px 70px;
+    position: relative;
+    left: 450px;
+    bottom: 545px;
+
+}
+.head4 {
+    position: relative;
+    left: 480px;
+    bottom: 530px;
+}
+
+.footer-logo {
+    background-image: url("assets/amazon_PNG11.png");
+    background-size: cover;
+    height: 40px;
+    width: 10vw;
+    align-items: center;
+    margin-top: 12px;
+    position: relative;
+    bottom: 450px;
+
+}
+@media screen (min-width: 300px) and (max-width: 700px) {
+    
+    
+}
